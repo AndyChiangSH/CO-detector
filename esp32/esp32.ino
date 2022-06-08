@@ -6,8 +6,8 @@
 #define GREEN_LED_PIN 12  // 綠色LED => GPIO 12
 #define RED_LED_PIN 14    // 紅色LED => GPIO 14
 #define BUZZER_PIN 27     // 蜂鳴器 => GPIO 27
-#define INIT_DELAY_SECOND 10  // 初始等待秒數(default=10)
-#define THRESHOLD 900    // MQ2數值門檻值(default=1500)
+#define INIT_DELAY_SECOND 60  // 初始等待秒數(default=60)
+#define THRESHOLD 900    // MQ2數值門檻值(default=900)
 #define CONTINUE_NUMBER 10 // 連續高於or低於次數(default=10)
 
 char SSID[] = "<你的WiFi名稱>";  // WiFi名稱
